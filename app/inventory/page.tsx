@@ -16,7 +16,7 @@ export default async function InventoryPage({
   const q = (params.q ?? "").trim();
 
   const page = Math.max(1, Number(params.page ?? "1"));
-  const pageSize = 5;
+  const pageSize = 10;
 
   const where = {
     userID,
