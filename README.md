@@ -88,6 +88,7 @@ npm run dev
 
 🧩 Folder Structure
 
+```bash
 Inventory/
 ├── app/
 │   ├── (routes)
@@ -102,6 +103,7 @@ Inventory/
 ├── styles/
 ├── package.json
 └── README.md
+```
 
 
 🛠️ Scripts
