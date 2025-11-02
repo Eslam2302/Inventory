@@ -52,6 +52,7 @@ cd Inventory
 
 Create a .env file and add your configuration:
 
+```bash
 DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your-secret-key"
@@ -61,6 +62,7 @@ If you’re using Neon or Supabase, just paste your database connection string i
 
 3️⃣ Install Dependencies
 
+```bash
 npm install
 # or
 pnpm install
