@@ -34,9 +34,9 @@ The app allows users to manage products, update stock, and perform all CRUD oper
 
 ## 📸 Screenshots
 
-| Dashboard | Product List | Product Form |
-|------------|---------------|---------------|
-| ![Dashboard](public/Dashboard.png) | ![Inventory](public/Inventory.png) | 
+| Dashboard | Product List 
+|------------|---------------
+| ![Dashboard](public/Dashboard.png) | ![Inventory](public/Inventory.png) 
 
 ---
 
