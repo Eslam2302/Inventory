@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗃️ Inventory Management System
 
-## Getting Started
+A modern full-stack **Inventory Management System** built with **Next.js**, **TypeScript**, and **Prisma ORM**.  
+The app allows users to manage products, update stock, and perform all CRUD operations easily through a simple and responsive UI.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 **Authentication System** — Secure login and user management (via Stack Auth).
+- 🧾 **CRUD Operations** — Create, edit, delete, and view products with ease.
+- 📦 **Stock Management** — Track available quantities and update them in real time.
+- 🔍 **Search & Filtering** — Quickly find products by name or category.
+- 📑 **Pagination** — Smooth navigation across product pages.
+- 🖼️ **Product Images** — Display and manage images stored in `/public`.
+- 💾 **Prisma ORM Integration** — Reliable database access and migrations.
+- 🎨 **Tailwind CSS** — Responsive, modern design with clean UI components.
+- ⚙️ **TypeScript** — Fully typed for better scalability and code safety.
+
+---
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Next.js (App Router), React |
+| Styling | Tailwind CSS |
+| Backend | Next.js API Routes |
+| Database | PostgreSQL (via Prisma ORM) |
+| Auth | Stack Auth |
+| Language | TypeScript |
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Product List | Product Form |
+|------------|---------------|---------------|
+| ![Dashboard](public/dashboard.png) | ![Products](public/products.png) | ![Form](public/form.png) |
+
+> 🖼️ Make sure your screenshots are inside the `/public` folder with correct filenames.
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
+git clone https://github.com/Eslam2302/Inventory.git
+cd Inventory
+
+2️⃣ Setup Environment Variables
+
+Create a .env file and add your configuration:
+
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="your-secret-key"
+
+
+If you’re using Neon or Supabase, just paste your database connection string in DATABASE_URL.
+
+3️⃣ Install Dependencies
+
+npm install
+# or
+pnpm install
+
+
+4️⃣ Setup Prisma
+
+npx prisma migrate dev --name init
+npx prisma generate
+
+
+(Optional: add seed data if available.)
+
+5️⃣ Run the App
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀Visit: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+🧩 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+Inventory/
+├── app/
+│   ├── (routes)
+│   ├── api/
+│   ├── lib/
+│   └── ...
+├── components/
+├── prisma/
+│   └── schema.prisma
+├── public/
+│   └── product images
+├── styles/
+├── package.json
+└── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛠️ Scripts
 
-## Deploy on Vercel
+| Command             | Description              |
+| ------------------- | ------------------------ |
+| `npm run dev`       | Start development server |
+| `npm run build`     | Create production build  |
+| `npm run start`     | Run production server    |
+| `npx prisma studio` | Open Prisma DB UI        |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📬 Author
+
+👤 Eslam Elsaid
+💼 GitHub Profile
+
+
+🌟 Show Your Support
+
+If you like this project, give it a ⭐ on GitHub — it helps a lot!
+
