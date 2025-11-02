@@ -48,6 +48,8 @@ The app allows users to manage products, update stock, and perform all CRUD oper
 git clone https://github.com/Eslam2302/Inventory.git
 cd Inventory
 
+```
+
 2️⃣ Setup Environment Variables
 
 Create a .env file and add your configuration:
@@ -56,7 +58,7 @@ Create a .env file and add your configuration:
 DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your-secret-key"
-
+```
 
 If you’re using Neon or Supabase, just paste your database connection string in DATABASE_URL.
 
@@ -66,20 +68,20 @@ If you’re using Neon or Supabase, just paste your database connection string i
 npm install
 # or
 pnpm install
-
+```
 
 4️⃣ Setup Prisma
-
+```bash
 npx prisma migrate dev --name init
 npx prisma generate
-
+```
 
 (Optional: add seed data if available.)
 
 5️⃣ Run the App
-
+```bash
 npm run dev
-
+```
 
 🚀Visit: http://localhost:3000
 
