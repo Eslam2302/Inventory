@@ -36,9 +36,7 @@ The app allows users to manage products, update stock, and perform all CRUD oper
 
 | Dashboard | Product List | Product Form |
 |------------|---------------|---------------|
-| ![Dashboard](public/dashboard.png) | ![Products](public/products.png) | ![Form](public/form.png) |
-
-> 🖼️ Make sure your screenshots are inside the `/public` folder with correct filenames.
+| ![Dashboard](public/Dashboard.png) | ![Inventory](public/Inventory.png) | 
 
 ---
 
