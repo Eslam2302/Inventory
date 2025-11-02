@@ -85,6 +85,7 @@ npm run dev
 
 🚀Visit: http://localhost:3000
 
+---
 
 🧩 Folder Structure
 
@@ -105,6 +106,8 @@ Inventory/
 └── README.md
 ```
 
+---
+
 
 🛠️ Scripts
 
@@ -115,11 +118,13 @@ Inventory/
 | `npm run start`     | Run production server    |
 | `npx prisma studio` | Open Prisma DB UI        |
 
+---
 
 📬 Author
 
-👤 Eslam Elsaid
-💼 GitHub Profile
+👤 Eslam Elsaid  
+💼 https://github.com/Eslam2302
+
 
 
 🌟 Show Your Support
